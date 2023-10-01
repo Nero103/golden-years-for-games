@@ -11,7 +11,7 @@ The goal of this project is to uncover which year(s) were the best for video gam
 The tools used for this analysis were SQL (PostgreSQL) and Excel.
 
 ## Preprocessing the data
-As mentioned the dataset was split into two tables to explore the data, checking for consistency, accuracy, and comprehension. First was the check for missing values, which made up almost half the dataset. Since approximately 49% of the data was missing, it seemed harmful to remove all that data. I used Excel to see the distribution of the reviews, to give me an idea of how to impute data into the missing values. The data showed a non-normal distribution, specifically a skewed right distribution. This finding suggested I use the median to fill in the missing values. After the data was imputed, I checked the game sales table, which had no missing values.
+As mentioned the dataset was split into two tables to explore the data, checking for consistency, accuracy, and comprehension. First was the check for missing values, which made up almost half the dataset. Since approximately 49% of the data was missing, it seemed harmful to remove all that data. I used Excel to see the distribution of the reviews, to give me an idea of how to impute data into the missing values. The data showed a non-normal distribution, specifically a skewed left distribution. This finding suggested I use the median to fill in the missing values. After the data was imputed, I checked the game sales table, which had no missing values.
 
 Next, I planned to join the tables during the analysis. Noticing that neither table had a key, I wanted to avoid duplicating the records, so a new column was added with incremented ID values to both tables. These columns were assigned primary keys.
 
