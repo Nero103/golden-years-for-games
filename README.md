@@ -1,6 +1,10 @@
 # Golden-years-for-games
 This project explores video game sales data from 1977 to 2020 using PostgreSQL and Excel.
 
+![erik-mclean-JHKrEcjXSi8-unsplash](https://github.com/Nero103/golden-years-for-games/assets/92405860/dd18278e-0430-47df-96cb-cb20db600c97)
+
+Photo by <a href="https://unsplash.com/@introspectivedsgn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Erik Mclean</a> on <a href="https://unsplash.com/photos/JHKrEcjXSi8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
 ## Background
 The data was collected from Kaggle and split into two tables. The first table covers game sales data. The second table covers critic and user reviews. Splitting the dataset was done to explore each table for missing data. This project was inspired by the capstone project from DataCamp's Data Analyst in SQL track. 
 
