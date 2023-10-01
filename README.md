@@ -5,7 +5,7 @@ This project explores video game sales data from 1977 to 2020 using PostgreSQL a
 The data was collected from Kaggle and split into two tables. The first table covers game sales data. The second table covers critic and user reviews. Splitting the dataset was done to explore each table for missing data. This project was inspired by the capstone project from DataCamp's Data Analyst in SQL track. 
 
 ## Business Task
-The goal of this project is to uncover which year(s) were the best for video games. Solving this problem could help game industries consider adopting styles from games belonging to certain years, whether it be gameplay value or story design.
+The goal of this project is to uncover which year(s) were the best for video games. Solving this problem could help game industries consider adopting strategies from game development during those years, whether it be gameplay value, technology features, or story design. Such information could drive revenue growth from game sales.
 
 ## Technical Tools
 The tools used for this analysis were SQL (PostgreSQL) and Excel.
