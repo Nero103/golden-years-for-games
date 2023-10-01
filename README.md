@@ -1,5 +1,5 @@
 # Golden-years-for-games
-This project explores video game sales data from 1977 to 2020 using PostgreSQL
+This project explores video game sales data from 1977 to 2020 using PostgreSQL and Excel.
 
 ## Background
 The data was collected from Kaggle and split into two tables. The first table covers game sales data. The second table covers critic and user reviews. Splitting the dataset was done to explore each table for missing data. This project was inspired by the capstone project from DataCamp's Data Analyst in SQL track. 
